@@ -8,18 +8,35 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>MongoDB</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>C++</li>
-        <li>Python</li>
-        <li>Figma</li>
-        <li>Adobe Illustrator</li>
-      </ul>
+      <div className="skills flex">
+        <div className="development">
+          <ul className="list-disc pl-2">
+            <li className="list-none font-bold text-purple-400 mb-2">
+              Development
+            </li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Sequelize</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>C++</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div className="designing ms-10">
+          <ul className="list-disc pl-2">
+            <li className="list-none text-purple-400 font-bold mb-2">
+              Designing
+            </li>
+            <li>Figma</li>
+            <li>Adobe XD</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe After Effects</li>
+          </ul>
+        </div>
+      </div>
     ),
   },
   {
