@@ -20,8 +20,6 @@ const HeroSection = () => {
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "MERN Developer",
                 1000,
-                "Software Developer",
-                1000,
                 "UI/UX Designer",
                 1000,
               ]}
