@@ -16,6 +16,16 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Parallax Landing Page, crafted with React! 🌟",
+    description:
+      "This project features a visually captivating design that leverages parallax scrolling to create a dynamic and immersive user experience.",
+    image: "/images/projects/parallax.png",
+    tag: ["All", "App"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 3,
     title:
       "A cutting-edge mobile app UI design for a futuristic fashion experience! 🌐✨",
     description:
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Wuthering Waves Resonator Details Page! 🎮✨",
     description:
       "This design is crafted to provide an immersive and user-friendly experience for players, featuring A user-centric layout that makes it easy to navigate and access character details.",
@@ -36,7 +46,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "A Futuristic Habit Tracker Website Dashboard! 🌟",
     description:
       "In this design, I've aimed to blend sleek aesthetics with intuitive functionality to help users build and maintain positive habits effortlessly.",
@@ -46,21 +56,11 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 6,
     title: "AI Chat Web App Built with the MERN Stack 🌐✨",
     description:
       "This project showcases a seamless integration of AI-driven conversation capabilities within a modern web application framework.",
     image: "/images/projects/chatai.png",
-    tag: ["All", "App"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Parallax Landing Page, crafted with React! 🌟",
-    description:
-      "This project features a visually captivating design that leverages parallax scrolling to create a dynamic and immersive user experience.",
-    image: "/images/projects/parallax.png",
     tag: ["All", "App"],
     gitUrl: "/",
     previewUrl: "/",
