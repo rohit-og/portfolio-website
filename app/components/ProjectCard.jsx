@@ -26,7 +26,7 @@ function ProjectCard({ imgUrl, title, description, gitUrl, previewUrl }) {
       </div>
       <div className="text-white rounded-b-xl bg-[#181818] py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#Adb7b3]">{description}</p>
+        <p className="text-[#Adb7b3] min-h-[100px]">{description}</p>
       </div>
     </div>
   );
