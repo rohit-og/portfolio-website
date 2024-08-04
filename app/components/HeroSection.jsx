@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import FileSaver from "file-saver";
 
 const HeroSection = () => {
   return (
@@ -35,11 +36,23 @@ const HeroSection = () => {
             structures and algorithms.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
+            <a
+              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:cursor-pointer text-white"
+              href="https://www.linkedin.com/in/rohitog/"
+              target="blank"
+            >
               Hire Me
-            </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg:slate-800 rounded-full px-5 py-2">
+            </a>
+            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-white text-white mt-3">
+              <span
+                className="block bg-[#121212] hover:bg:white rounded-full px-5 py-2"
+                onClick={() =>
+                  FileSaver.saveAs(
+                    "./images/resume.pdf",
+                    "rohit-sharma-resume.pdf"
+                  )
+                }
+              >
                 Download CV
               </span>
             </button>

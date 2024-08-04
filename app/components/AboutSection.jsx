@@ -17,7 +17,6 @@ const TAB_DATA = [
             <li>Node.js</li>
             <li>Express</li>
             <li>MongoDB</li>
-            <li>Sequelize</li>
             <li>JavaScript</li>
             <li>React</li>
             <li>C++</li>
@@ -30,6 +29,7 @@ const TAB_DATA = [
               Designing
             </li>
             <li>Figma</li>
+            <li>Blender</li>
             <li>Adobe XD</li>
             <li>Adobe Illustrator</li>
             <li>Adobe Photoshop</li>
@@ -57,8 +57,26 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>
+          Professional Graphics Design & Video Editing{" "}
+          <a
+            href="https://www.udemy.com/certificate/UC-ef9b5abd-9eab-49c5-abd0-f0c76ff4d77b/"
+            className="text-purple-400"
+            target="blank"
+          >
+            view certificate
+          </a>
+        </li>
+        <li>
+          Applied Generative AI and Natural Language Processing{" "}
+          <a
+            href="https://www.udemy.com/certificate/UC-46b80584-cf1e-403d-9b77-af02bd5fbc05/"
+            className="text-purple-400"
+            target="blank"
+          >
+            view certificate
+          </a>
+        </li>
       </ul>
     ),
   },
