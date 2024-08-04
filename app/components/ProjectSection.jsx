@@ -11,8 +11,10 @@ const projectsData = [
       "As a passionate gamer and UI designer, I've combined my love for gaming with my design skills to create a fresh, intuitive interface for navigating through VALORANT's diverse roster of Agents. ",
     image: "/images/projects/viper.png",
     tag: ["All", "UI/UX"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://www.figma.com/design/DiZshlqnuGrfLebklI92sV/VALORANT-Concept-UI?node-id=0-1&t=i8pxyEV3LznD6QsC-1",
+    previewUrl:
+      "https://www.behance.net/gallery/204772527/VALORANT-Agent-Selection-Concept-UIUX",
   },
   {
     id: 2,
@@ -32,8 +34,10 @@ const projectsData = [
       "👗 AI-Powered Styling: Get personalized outfit recommendations based on your preferences, body type, and current fashion trends.",
     image: "/images/projects/fashion.png",
     tag: ["All", "UI/UX"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://www.figma.com/design/z6BFsQ3DpPQejOQYQTOoCd/Fashion-App-UI?node-id=0-1&t=9O12bXosrG7MERAo-1",
+    previewUrl:
+      "https://www.behance.net/gallery/204772653/Futuristic-Fashion-Mobile-App-UIUX-Design",
   },
   {
     id: 4,
@@ -42,8 +46,10 @@ const projectsData = [
       "This design is crafted to provide an immersive and user-friendly experience for players, featuring A user-centric layout that makes it easy to navigate and access character details.",
     image: "/images/projects/ww.png",
     tag: ["All", "UI/UX"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://www.figma.com/design/lCdsOmZfbaXBRDPPwlOPZJ/Wuthering-Waves-Concept-UI?node-id=0-1&t=YKdXTf2BZ3wgChOJ-1",
+    previewUrl:
+      "https://www.behance.net/gallery/204772309/Wuthering-Waves-Resonator-Screen-Concept-UIUX",
   },
   {
     id: 5,
@@ -52,8 +58,10 @@ const projectsData = [
       "In this design, I've aimed to blend sleek aesthetics with intuitive functionality to help users build and maintain positive habits effortlessly.",
     image: "/images/projects/trakr.png",
     tag: ["All", "UI/UX"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://www.figma.com/design/Dd6DpDZhG9O9exj7jXc4OP/Tracker-App-UI?node-id=0-1&t=YrehhFWAsxEjye04-1",
+    previewUrl:
+      "https://www.behance.net/gallery/204772577/Habit-Tracker-Concept-UIUX-Design",
   },
   {
     id: 6,
