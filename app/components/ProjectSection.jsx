@@ -16,13 +16,13 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Parallax Landing Page, crafted with React! 🌟",
+    title: "AI-Powered Art Gallery Web App 🌟",
     description:
-      "This project features a visually captivating design that leverages parallax scrolling to create a dynamic and immersive user experience.",
-    image: "/images/projects/parallax.png",
+      "It is a dynamic, full-stack web application designed to showcase and interact with AI-generated artwork. Utilizing a modern tech stack, this project integrates the latest frontend and backend technologies to deliver a seamless user experience.",
+    image: "/images/projects/aiii.png",
     tag: ["All", "App"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/heyrohitog/ai-image-generator",
+    previewUrl: "https://artist-hu-bhai.vercel.app/",
   },
   {
     id: 3,
