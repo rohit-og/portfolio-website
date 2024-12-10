@@ -37,7 +37,7 @@ const HeroSection = () => {
           </p>
           <div>
             <a
-              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:cursor-pointer text-white"
+              className="block sm:inline-flex px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:cursor-pointer text-white"
               href="https://www.linkedin.com/in/rohitog/"
               target="blank"
             >
