@@ -17,7 +17,7 @@ function EmailSection() {
           to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/heyrohitog" target="_blank" >
+          <Link href="https://github.com/rohit-og" target="_blank" >
             <Image src={GithubIcon} alt="GitHub Icon" className="w-10 text-white" />
           </Link>
           <Link href="https://www.linkedin.com/in/rohitog/" target="_blank" >
