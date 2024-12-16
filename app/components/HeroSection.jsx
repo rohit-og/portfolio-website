@@ -43,10 +43,10 @@ const HeroSection = () => {
             >
               Hire Me
             </a>
-            <a className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-white text-white mt-3">
+            <a className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-white text-white mt-3" href="https://drive.google.com/file/d/1m3TCr03nUGMKQnSMUB4RTd1wXil9lMxv/view?usp=drive_link">
               <span
                 className="block bg-[#121212] hover:bg:white rounded-full px-5 py-2"
-                href="https://drive.google.com/file/d/1m3TCr03nUGMKQnSMUB4RTd1wXil9lMxv/view?usp=drive_link"
+                
               >
                 Download CV
               </span>
