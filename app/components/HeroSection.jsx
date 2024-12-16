@@ -43,19 +43,14 @@ const HeroSection = () => {
             >
               Hire Me
             </a>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-white text-white mt-3">
+            <a className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-white text-white mt-3">
               <span
                 className="block bg-[#121212] hover:bg:white rounded-full px-5 py-2"
-                onClick={() =>
-                  FileSaver.saveAs(
-                    "./images/resume.pdf",
-                    "rohit-sharma-resume.pdf"
-                  )
-                }
+                href="https://drive.google.com/file/d/1m3TCr03nUGMKQnSMUB4RTd1wXil9lMxv/view?usp=drive_link"
               >
                 Download CV
               </span>
-            </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
