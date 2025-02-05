@@ -9,33 +9,41 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <div className="skills flex">
-        <div className="development">
-          <ul className="list-disc pl-2">
-            <li className="list-none font-bold text-purple-400 mb-2">
-              Development
-            </li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>C++</li>
-            <li>Python</li>
-          </ul>
-        </div>
-        <div className="designing ms-10">
-          <ul className="list-disc pl-2">
-            <li className="list-none text-purple-400 font-bold mb-2">
-              Designing
-            </li>
-            <li>Figma</li>
-            <li>Blender</li>
-            <li>Adobe XD</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe After Effects</li>
-          </ul>
-        </div>
+        <ul className="list-disc pl-2 flex flex-col gap-1">
+          <li>
+            <span className="font-bold text-purple-400">
+              Programming Languages:{" "}
+            </span>
+            C, C++, Python, JavaScript, TypeScript
+          </li>
+          <li>
+            <span className="font-bold text-purple-400">
+              Frontend Technologies:{" "}
+            </span>
+            HTML, CSS, JavaScript, React, Next.js
+          </li>
+
+          <li>
+            <span className="font-bold text-purple-400">
+              Backend Technologies:{" "}
+            </span>
+            Node.js, Express
+          </li>
+
+          <li>
+            <span className="font-bold text-purple-400">Database: </span>MySQL,
+            MongoDB
+          </li>
+
+          <li>
+            <span className="font-bold text-purple-400">Version Control: </span>
+            Git, GitHub
+          </li>
+          <li>
+            <span className="font-bold text-purple-400">Designing Tools: </span>
+            Figma, Adobe XD, Photoshop, Illustrator, After Effects
+          </li>
+        </ul>
       </div>
     ),
   },
@@ -43,13 +51,28 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>
-          BCA from Inspiria Knowledge Campus
-          <br />
-          2022-2025
-        </li>
-      </ul>
+      <div>
+        <div className="flex justify-between">
+          <div>
+            <h3 className="text-lg font-bold text-purple-400">
+              Bachelors of Computer Application
+            </h3>
+            <p className="text-white">Inspiria Knowledge Campus</p>
+          </div>
+          <p className="text-white">2022-2025</p>
+        </div>
+        <ul className="list-disc pl-2 flex flex-col gap-2 ms-2 mt-4">
+          <li>
+            <span className=" text-pink-500">Coursework: </span>Data Structures
+            and Algorithms, Database Management Systems, Operating Systems,
+            Computer Networks, Web Development, Object-Oriented Programming,
+            Software Engineering, Cloud Computing
+          </li>
+          <li>
+            <span className=" text-pink-500">CGPA: </span>7.82/10
+          </li>
+        </ul>
+      </div>
     ),
   },
   {
