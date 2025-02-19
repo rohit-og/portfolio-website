@@ -18,7 +18,8 @@
     "react-animated-numbers": "^0.18.0",
     "react-dom": "^18",
     "react-scroll": "^1.9.0",
-    "react-type-animation": "^3.2.0"
+    "react-type-animation": "^3.2.0",
+    "@vercel/analytics": "^1.2.2",
   },
   "devDependencies": {
     "eslint": "^8",
