@@ -1,15 +1,24 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 
 const TabButton = ({ active, selectTab, children }) => {
   const buttonClasses = active
-    ? "text-white border-b border-purple-500"
-    : "text-[#adb7be]";
+    ? "text-black dark:text-white border-b border-purple-500"
+    : "text-gray-500 dark:text-[#adb7be]";
   return (
-    <button onClick={selectTab}>
-      <p className={`mr-3 font-semibold hover:text-white ${buttonClasses}`}>
+    <motion.button
+      onClick={selectTab}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.95 }}
+      transition={{ type: "spring", stiffness: 300 }}
+    >
+      <p
+        className={`mr-3 font-semibold hover:text-black dark:hover:text-white ${buttonClasses}`}
+      >
         {children}
       </p>
-    </button>
+    </motion.button>
   );
 };
 

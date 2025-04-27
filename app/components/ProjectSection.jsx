@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTags from "./ProjectTags";
+import { motion } from "framer-motion";
 
 const projectsData = [
   {
@@ -85,12 +86,26 @@ function ProjectSection() {
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
   );
+
   return (
-    <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-6">
-        My Projects
-      </h2>
-      <div className="text-white flex flex-row items-center justify-center gap-2 py-6">
+    <section id="projects" className="py-10">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true, margin: "-50px" }}
+      >
+        <h2 className="text-center text-4xl font-bold text-black dark:text-white mt-4 mb-6">
+          My Projects
+        </h2>
+      </motion.div>
+      <motion.div
+        className="text-black dark:text-white flex flex-row items-center justify-center gap-2 py-6"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        viewport={{ once: true, margin: "-50px" }}
+      >
         <ProjectTags
           onClick={handleTagChange}
           name="All"
@@ -106,8 +121,18 @@ function ProjectSection() {
           name="UI/UX"
           isSelected={tag === "UI/UX"}
         />
-      </div>
-      <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+      </motion.div>
+      <motion.div
+        className="grid md:grid-cols-3 gap-8 md:gap-12"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          duration: 0.5,
+          delay: 0.4,
+          staggerChildren: 0.1,
+        }}
+        viewport={{ once: true, margin: "-100px" }}
+      >
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}
@@ -118,7 +143,7 @@ function ProjectSection() {
             previewUrl={project.previewUrl}
           />
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 }
