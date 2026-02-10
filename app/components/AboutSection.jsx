@@ -10,42 +10,50 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <div className="skills flex">
-        <ul className="list-disc pl-2 flex flex-col gap-1">
-          <li>
-            <span className="font-bold text-purple-400">
-              Programming Languages:{" "}
-            </span>
-            C, C++, Python, JavaScript, TypeScript
-          </li>
-          <li>
-            <span className="font-bold text-purple-400">
-              Frontend Technologies:{" "}
-            </span>
-            HTML, CSS, JavaScript, React, Next.js
-          </li>
+  <ul className="list-disc pl-2 flex flex-col gap-1">
+    <li>
+      <span className="font-bold text-purple-400">
+        Programming Languages:{" "}
+      </span>
+      C, C++, JavaScript, TypeScript, PHP
+    </li>
 
-          <li>
-            <span className="font-bold text-purple-400">
-              Backend Technologies:{" "}
-            </span>
-            Node.js, Express
-          </li>
+    <li>
+      <span className="font-bold text-purple-400">
+        Frontend Technologies:{" "}
+      </span>
+      HTML, CSS, React, Next.js, Tailwind CSS
+    </li>
 
-          <li>
-            <span className="font-bold text-purple-400">Database: </span>MySQL,
-            MongoDB
-          </li>
+    <li>
+      <span className="font-bold text-purple-400">
+        Backend Technologies:{" "}
+      </span>
+      Node.js, Express.js, Laravel
+    </li>
 
-          <li>
-            <span className="font-bold text-purple-400">Version Control: </span>
-            Git, GitHub
-          </li>
-          <li>
-            <span className="font-bold text-purple-400">Designing Tools: </span>
-            Figma, Adobe XD, Photoshop, Illustrator, After Effects
-          </li>
-        </ul>
-      </div>
+    <li>
+      <span className="font-bold text-purple-400">Database & Cache: </span>
+      MySQL, PostgreSQL, MongoDB, Redis, Supabase
+    </li>
+
+    <li>
+      <span className="font-bold text-purple-400">DevOps & Cloud: </span>
+      Docker, Nginx, Linux (Ubuntu), DigitalOcean, AWS, Azure
+    </li>
+
+    <li>
+      <span className="font-bold text-purple-400">Version Control: </span>
+      Git, GitHub
+    </li>
+
+    <li>
+      <span className="font-bold text-purple-400">Design & Media: </span>
+      Figma, Adobe XD, Photoshop, Illustrator, After Effects
+    </li>
+  </ul>
+</div>
+
     ),
   },
   {
