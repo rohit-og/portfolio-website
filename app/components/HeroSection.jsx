@@ -26,7 +26,7 @@ const HeroSection = () => {
                 // Same substring at the start will only be typed out once, initially
                 "Rohit Sharma",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Software Developer",
+                "Software Engineer",
                 1000,
                 "UI/UX Designer",
                 1000,
@@ -37,10 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-gray-800 dark:text-[#adb7be] text-base sm:text-lg lg:text-xl mb-6">
-            Passionate and dedicated BCA 3rd-year student with a strong
-            foundation in software development and web technologies. Always
-            looking for an oppurtunity to use my skills in full-stack
-            development to contribute and participate in innovative projects
+            I’m a Software Engineer and UI/UX Designer based in India, passionate about building high-impact digital products. I work across the full stack, blending strong engineering fundamentals with thoughtful design to contribute to innovative, user-focused projects.
           </p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

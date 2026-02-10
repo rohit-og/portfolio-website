@@ -53,28 +53,56 @@ const TAB_DATA = [
     id: "education",
     content: (
       <div>
-        <div className="flex justify-between">
-          <div>
-            <h3 className="text-lg font-bold text-purple-400">
-              Bachelors of Computer Application
-            </h3>
-            <p className="text-black dark:text-white">
-              Inspiria Knowledge Campus
-            </p>
-          </div>
-          <p className="text-black dark:text-white">2022-2025</p>
-        </div>
-        <ul className="list-disc pl-2 flex flex-col gap-2 ms-2 mt-4">
-          <li>
-            <span className=" text-pink-500">Coursework: </span>Data Structures
-            and Algorithms, Database Management Systems, Operating Systems,
-            Computer Networks, Web Development, Object-Oriented Programming,
-            Software Engineering, Cloud Computing
-          </li>
-          <li>
-            <span className=" text-pink-500">CGPA: </span>7.82/10
-          </li>
-        </ul>
+        <div>
+  <div className="flex justify-between">
+    <div>
+      <h3 className="text-lg font-bold text-purple-400">
+        Masters of Computer Application
+      </h3>
+      <p className="text-black dark:text-white">
+        Siliguri Institute of Technology
+      </p>
+    </div>
+    <p className="text-black dark:text-white">2025-2027</p>
+  </div>
+  <ul className="list-disc pl-2 flex flex-col gap-2 ms-2 mt-4">
+    <li>
+      <span className=" text-pink-500">Coursework: </span>Advanced Data Structures,
+      Machine Learning, Artificial Intelligence, Advanced Database Management,
+      Distributed Systems, Information Security, Mobile Application Development,
+      Big Data Analytics
+    </li>
+    <li>
+      <span className=" text-pink-500">Ongoing </span>
+    </li>
+  </ul>
+</div>
+        <div>
+  <div className="flex justify-between mt-6">
+    <div>
+      <h3 className="text-lg font-bold text-purple-400">
+        Bachelors of Computer Application
+      </h3>
+      <p className="text-black dark:text-white">
+        Inspiria Knowledge Campus
+      </p>
+    </div>
+    <p className="text-black dark:text-white">2022-2025</p>
+  </div>
+  <ul className="list-disc pl-2 flex flex-col gap-2 ms-2 mt-4">
+    <li>
+      <span className=" text-pink-500">Coursework: </span>Data Structures
+      and Algorithms, Database Management Systems, Operating Systems,
+      Computer Networks, Web Development, Object-Oriented Programming,
+      Software Engineering, Cloud Computing
+    </li>
+    <li>
+      <span className=" text-pink-500">CGPA: </span>8.4 / 10
+    </li>
+  </ul>
+</div>
+
+
       </div>
     ),
   },
@@ -120,12 +148,13 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="text-black dark:text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true, margin: "-50px" }}
+          className="sticky top-8"
         >
           <Image
             src="/images/about-image.png"
