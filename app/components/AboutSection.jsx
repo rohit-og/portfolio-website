@@ -202,13 +202,13 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            {/* <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
-            </TabButton> */}
+              {/* <TabButton
+                selectTab={() => handleTabChange("certifications")}
+                active={tab === "certifications"}
+              >
+                {" "}
+                Certifications{" "}
+              </TabButton> */}
           </div>
           <motion.div
             className="mt-8"

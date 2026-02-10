@@ -58,7 +58,7 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="block sm:inline-flex px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-white text-gray-800 dark:text-white mt-3"
-              href="https://drive.google.com/file/d/1m3TCr03nUGMKQnSMUB4RTd1wXil9lMxv/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1qLMN3UCvjypAcNnmjm3kK6hZtL-1xlHd/view?usp=sharing"
               target="blank"
             >
               <span className="block bg-white dark:bg-[#121212] hover:bg:white rounded-full px-5 py-2">
